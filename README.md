@@ -1,4 +1,4 @@
-# dsi.library.yorku.ca
+# mmcl.library.yorku.ca
 
 This site is built with [Zensical](https://zensical.org). The sections below walk through the most common update tasks.
 
@@ -15,11 +15,11 @@ This site is built with [Zensical](https://zensical.org). The sections below wal
 
 ### Changing Site Structure or Navigation
 
-Navigation is configured in [`zensical.toml`](https://github.com/yorkulibraries/dsi.library.yorku.ca/blob/main/zensical.toml#L40-L78). The nested array in that file controls how the site navigation is organized, and it corresponds directly to how content is structured in the [`docs`](https://github.com/yorkulibraries/dsi.library.yorku.ca/tree/main/docs) folder. Changes to navigation and changes to the `docs` folder structure go hand in hand.
+Navigation is configured in [`zensical.toml`](https://github.com/yorkulibraries/mmcl.library.yorku.ca/blob/main/zensical.toml#L40-L91). The nested array in that file controls how the site navigation is organized, and it corresponds directly to how content is structured in the [`docs`](https://github.com/yorkulibraries/dsi.library.yorku.ca/tree/main/docs) folder. Changes to navigation and changes to the `docs` folder structure go hand in hand.
 
 ### Working with Images
 
-Store images in the [`docs/images`](https://github.com/yorkulibraries/dsi.library.yorku.ca/tree/main/docs/images) folder. To link to or embed an image anywhere on the site, use the path: `/images/filename.ext`
+Store images in the [`docs/images`](https://github.com/yorkulibraries/mmcl.library.yorku.ca/tree/main/docs/images) folder. To link to or embed an image anywhere on the site, use the path: `/images/filename.ext`
 
 ### ⚠️ Caution: Files to Leave Alone
 
